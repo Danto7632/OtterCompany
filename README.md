@@ -1,1 +1,1 @@
-https://OtterKing.kro.kr
+http://OtterKing.kro.kr
