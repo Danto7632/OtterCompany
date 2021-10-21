@@ -292,18 +292,18 @@ img.img-full-width {
   ); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-linear-gradient(
     top,
-    rgba(243, 129, 129, 0.9),
-    rgba(252, 227, 138, 0.9)
+    rgba(243, 129, 129, 0.5),
+    rgba(252, 227, 138, 0.5)
   );
   background: -o-linear-gradient(
     top,
-    rgba(243, 129, 129, 0.9),
-    rgba(252, 227, 138, 0.9)
+    rgba(243, 129, 129, 0.5),
+    rgba(252, 227, 138, 0.5)
   );
   background: linear-gradient(
     to bottom,
-    rgba(243, 129, 129, 0.9),
-    rgba(252, 227, 138, 0.9)
+    rgba(243, 129, 129, 0.5),
+    rgba(252, 227, 138, 0.5)
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #nino-headerInner {
@@ -377,7 +377,7 @@ img.img-full-width {
 #nino-navbar .navbar-brand {
   color: #fff;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 60px;
 }
 #nino-navbar .navbar-nav > li > a {
   color: #fff;
@@ -476,7 +476,7 @@ section {
   padding-bottom: 20px;
   margin-bottom: 30px;
   text-align: center;
-  color: #333;
+  color: rgb(0, 247, 255);
 }
 .nino-sectionHeading:after {
   content: "";
@@ -553,7 +553,8 @@ section {
 #nino-uniqueDesign {
   padding-bottom: 0;
   margin-bottom: 30px;
-  background: #e0e0e0 url(../images/unique-design/bg-unique-design.jpg)
+  background: #e0e0e0
+    url(https://toppng.com/uploads/preview/animal-logs-otter-wallpaper-11555169805gcs0atj8oa.jpg)
     no-repeat center center / cover;
 }
 #nino-uniqueDesign .nino-devices {
@@ -1019,12 +1020,6 @@ footer .morePhoto {
   margin-top: 10px;
   display: inline-block;
 }
-/* ----------- COPYRIGHT ----------- */
-footer .nino-copyright {
-  text-align: center;
-  border-top: 1px solid #e5e5e5;
-  padding: 20px 0;
-}
 /* =============== SEARCH FORM =============== */
 #nino-searchForm {
   position: fixed;
@@ -1390,4 +1385,10 @@ div.pp_default .pp_social {
   #nino-portfolio .nino-portfolioItems li {
     width: 100%;
   }
+}
+/* ----------- COPYRIGHT ----------- */
+copyright {
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+  padding: 20px 0;
 }
